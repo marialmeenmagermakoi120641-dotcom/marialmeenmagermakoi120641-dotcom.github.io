@@ -184,6 +184,18 @@ section {
 .hero h1 span {
     color: var(--blue);
 }
+.domains {
+    margin-top: 22px;
+    color: #3f6df6;
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.domains span {
+    color: #101a36;
+    margin: 0 8px;
+}
 
 .hero-description {
     max-width: 580px;
