@@ -143,19 +143,15 @@ section {
 
 .hero-container {
     width: min(1120px, calc(100% - 40px));
-
-    margin: auto;
-
+    margin: 0 auto;
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     align-items: center;
-
-    gap: 60px;
+    gap: 70px;
 }
 
 .hero-content {
+    width: 100%;
     padding-bottom: 30px;
 }
 
