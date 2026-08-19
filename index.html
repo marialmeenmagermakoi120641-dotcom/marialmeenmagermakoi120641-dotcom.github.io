@@ -1,57 +1,476 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Marial Meen Portfolio</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Marial Meen Mager Makoi - ICT Student, Cybersecurity and Networking Enthusiast">
+
+    <title>Marial Meen Makoi | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
+
+
 <body>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <!-- ================= NAVIGATION ================= -->
 
-<div class="hero">
-    <h1>Hi, I'm <span class="highlight">MARIAL MEEN MAGER MAKOI</span></h1>
+    <header class="header">
 
-    <p>ICT Student | Linux Enthusiast | Developer</p>
+        <nav class="navbar">
 
-    <img src="profile.jpg" class="profile" alt="My Photo">
-</div>
+            <a href="#home" class="logo">
+                Marial<span>.</span>
+            </a>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am an ICT student at Marwadi University passionate about
-        Software Development, Linux, Networking, Cybersecurity, and AI.
-    </p>
-</section>
+            <div class="nav-links">
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Linux</li>
-        <li>Networking</li>
-        <li>HTML & CSS</li>
-        <li>DBMS</li>
-    </ul>
-</section>
+                <a href="#home">Home</a>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li>Microplastic Detection Using OpenCV</li>
-        <li>Community Website</li>
-    </ul>
-</section>
+                <a href="#about">About</a>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
-</section>
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Work</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-container">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    ICT • CYBERSECURITY • NETWORKING
+                </p>
+
+                <h1>
+                    Hi,<br>
+                    I'm <span>Marial</span><br>
+                    a Cybersecurity & ICT Student.
+                </h1>
+
+                <p class="hero-description">
+
+                    I am passionate about technology, cybersecurity,
+                    networking, Linux and software development.
+                    I enjoy learning new technologies and building
+                    practical solutions.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a href="#contact" class="btn primary-btn">
+                        Contact Me
+                    </a>
+
+                    <a href="#" class="btn secondary-btn">
+                        Download CV
+                    </a>
+
+                </div>
+
+
+                <div class="social-links">
+
+                    <a href="#" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="https://github.com/marialmeenmagermakoi120641-dotcom"
+                        target="_blank">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROFILE IMAGE -->
+
+            <div class="hero-image">
+
+                <div class="blue-shape"></div>
+
+                <img src="profile.jpg"
+                    alt="Marial Meen Mager Makoi">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+
+            <p>GET TO KNOW ME</p>
+
+            <h2>
+                About <span>Me</span>
+            </h2>
+
+        </div>
+
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <h3>Who I Am</h3>
+
+                <p>
+
+                    I am an Information and Communication Technology
+                    student at Marwadi University with a strong interest
+                    in cybersecurity, networking, Linux and software
+                    development.
+
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <h3>My Interests</h3>
+
+                <p>
+
+                    My interests include ethical hacking, network
+                    security, Linux systems, web development,
+                    programming and exploring new technologies.
+
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <h3>My Goal</h3>
+
+                <p>
+
+                    My goal is to build practical technology solutions
+                    and develop strong professional skills in
+                    cybersecurity and information technology.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-title">
+
+            <p>MY TOOLBOX</p>
+
+            <h2>
+                Skills & <span>Technologies</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <h3>Cybersecurity</h3>
+
+                <p>
+                    Ethical Hacking · Web Security · Security Labs
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Networking</h3>
+
+                <p>
+                    TCP/IP · DNS · DHCP · VLAN · Routing
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Linux</h3>
+
+                <p>
+                    Linux Administration · CLI · Shell
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Python</h3>
+
+                <p>
+                    Python · OpenCV · NumPy · Automation
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Web Development</h3>
+
+                <p>
+                    HTML · CSS · JavaScript
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <h3>Database</h3>
+
+                <p>
+                    SQL · MySQL · Oracle · DBMS
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+
+            <p>SELECTED PROJECTS</p>
+
+            <h2>
+                My <span>Work</span>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-container">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <p class="project-number">
+                    01
+                </p>
+
+                <h3>
+                    Microplastic Detection
+                </h3>
+
+                <p>
+
+                    A computer vision project using Python
+                    and OpenCV to detect and count
+                    microplastic particles from images.
+
+                </p>
+
+                <div class="project-tags">
+
+                    <span>Python</span>
+
+                    <span>OpenCV</span>
+
+                    <span>Computer Vision</span>
+
+                </div>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <p class="project-number">
+                    02
+                </p>
+
+                <h3>
+                    Cybersecurity Project
+                </h3>
+
+                <p>
+
+                    A cybersecurity project focused on
+                    phishing awareness, web security and
+                    identifying suspicious online activity.
+
+                </p>
+
+                <div class="project-tags">
+
+                    <span>Cybersecurity</span>
+
+                    <span>Web Security</span>
+
+                </div>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <p class="project-number">
+                    03
+                </p>
+
+                <h3>
+                    Community Website
+                </h3>
+
+                <p>
+
+                    A responsive website project designed
+                    to provide information and services
+                    for a community.
+
+                </p>
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                </div>
+
+                <a href="#">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section">
+
+        <div class="contact-container">
+
+            <div>
+
+                <p class="small-title">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Have a project<br>
+                    in <span>mind?</span>
+                </h2>
+
+                <p>
+
+                    I'm always interested in technology,
+                    cybersecurity, networking and new projects.
+
+                </p>
+
+            </div>
+
+
+            <a href="mailto:your-email@example.com"
+                class="btn primary-btn">
+
+                Email Me
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Marial Meen Mager Makoi.
+            All rights reserved.
+        </p>
+
+    </footer>
+
 
 </body>
+
 </html>
